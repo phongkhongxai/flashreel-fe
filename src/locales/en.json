@@ -1,0 +1,140 @@
+{
+  "app": {
+    "title": "Video Review Workspace",
+    "subtitle": "Vietnamese / English / Chinese · Single administrator role",
+    "brand": "FlashReel"
+  },
+  "nav": {
+    "review": "Video Review",
+    "detail": "Review Detail",
+    "policies": "Policy Center"
+  },
+  "language": {
+    "label": "Language",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "中文"
+  },
+  "search": {
+    "placeholder": "Search title or email"
+  },
+  "button": {
+    "login": "Login",
+    "review": "Review",
+    "view": "View",
+    "preview": "Preview",
+    "backToList": "Back to review list",
+    "approve": "Approve and publish",
+    "reject": "Reject and send reason",
+    "saveNote": "Save note",
+    "publishNewVersion": "Publish new version",
+    "logout": "Logout",
+    "loggingIn": "Signing in...",
+    "approving": "Approving...",
+    "rejecting": "Rejecting...",
+    "loggingOut": "Signing out...",
+    "previous": "Previous",
+    "next": "Next",
+    "takeDown": "Take down",
+    "takingDown": "Taking down..."
+  },
+  "auth": {
+    "loginTitle": "Admin Login",
+    "loginSubtitle": "Sign in to review FlashReel user videos.",
+    "usernameEmail": "Username / Email",
+    "usernameEmailPlaceholder": "admin@flashreel.vn",
+    "usernameRequired": "Username or email is required.",
+    "emailInvalid": "Please enter a valid email address.",
+    "loginHint": "Use the administrator account configured on the API server.",
+    "protectedRedirect": "Please log in to continue.",
+    "signedInAs": "Signed in as {{name}}",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "passwordRequired": "Password is required.",
+    "loginFailed": "Login failed. Please check your account and password."
+  },
+  "metric": {
+    "pending": "Pending Review",
+    "approvedToday": "Approved Today",
+    "rejectedToday": "Rejected Today",
+    "averageHandlingTime": "Average Handling Time",
+    "averageHandlingValue": "12m"
+  },
+  "status": {
+    "UNDER_REVIEW": "Under Review",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected",
+    "DELETED": "Taken Down",
+    "REVIEWING": "Under Review",
+    "TAKEN_DOWN": "Taken Down"
+  },
+  "reason": {
+    "ILLEGAL_CONTENT": "Illegal or policy-violating content",
+    "SEXUAL_OR_VIOLENT": "Sexual or violent content",
+    "COPYRIGHT_RISK": "Copyright risk",
+    "SPAM_OR_ADS": "Advertising or spam",
+    "LOW_QUALITY": "Poor quality or unsuitable content",
+    "OTHER": "Other",
+    "COPYRIGHT": "Copyright risk",
+    "INAPPROPRIATE_CONTENT": "Inappropriate content",
+    "SPAM": "Advertising or spam"
+  },
+  "table": {
+    "reviewList": "Review List",
+    "video": "Video",
+    "author": "Author",
+    "uploadedAt": "Upload Time",
+    "status": "Status",
+    "metrics": "Metrics",
+    "actions": "Actions",
+    "empty": "No videos match the current filters",
+    "views": "Views",
+    "likes": "Likes",
+    "comments": "Comments",
+    "loading": "Loading videos...",
+    "pageInfo": "Page {{page}} of {{totalPages}} · {{totalElements}} videos"
+  },
+  "detail": {
+    "videoInfo": "Video Information",
+    "title": "Title",
+    "author": "Author",
+    "file": "File",
+    "uploadedAt": "Upload Time",
+    "publicStatus": "Public Feed Status",
+    "published": "Already visible in the public feed",
+    "pendingRanking": "Will join popularity ranking after approval",
+    "firstFrameCover": "Default first-frame thumbnail",
+    "rejectReason": "Rejection Reason",
+    "rejectNote": "The reason will be shown in App > My Videos. Users can view the original video and submit a new one.",
+    "reviewActions": "Review Actions",
+    "defaultCustomReason": "A promotional QR code appears in the video without proper disclosure. Please remove commercial guidance and resubmit.",
+    "platformActions": "Platform Actions"
+  },
+  "policy": {
+    "privacyTitle": "Privacy Policy · v1.2",
+    "termsTitle": "Terms of Service · v1.2",
+    "published": "Published",
+    "chinese": "Chinese",
+    "vietnamese": "Vietnamese",
+    "english": "English",
+    "type": "Policy Type",
+    "version": "Version",
+    "title": "Policy Title",
+    "content": "Policy Content",
+    "privacyOption": "Privacy Policy",
+    "termsOption": "Terms of Service",
+    "editorTitle": "FlashReel Privacy Policy",
+    "editorContent": "FlashReel processes the information required for account registration, video upload, video review, public video display, likes, follows, view counting, and language settings according to this privacy policy. Users can request account deletion in settings. After deletion, the account will be anonymized and all videos published by the account will be taken down.",
+    "current": "Currently active"
+  },
+  "videos": {
+    "hanoiCoffee": "A one-minute slow weekend at a Hanoi cafe",
+    "hoiAnLantern": "Hoi An ancient town lantern night market",
+    "streetBrand": "Street brand pop-up recap"
+  },
+  "messages": {
+    "rejectionExample": "Advertising or spam. The video contains an undisclosed promotional QR code.",
+    "loadVideosFailed": "Could not load videos from the API.",
+    "reviewActionFailed": "Could not submit the review action."
+  }
+}

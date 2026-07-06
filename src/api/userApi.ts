@@ -1,0 +1,22 @@
+import { request } from './httpClient';
+import { UpdateMyProfileInput, UserResponse } from './types';
+
+export function getMyInfo(): Promise<UserResponse> {
+  return request('/users/my-info');
+}
+
+export function getMyProfile(): Promise<UserResponse> {
+  return request('/users/me/profile');
+}
+
+export function updateMyProfile(input: UpdateMyProfileInput): Promise<UserResponse> {
+  const formData = new FormData();
+  formData.append('nickname', input.nickname);
+  if (input.avatarFile) formData.append('avatarFile', input.avatarFile as Blob);
+  if (input.avatarUrl) formData.append('avatarUrl', input.avatarUrl);
+  return request('/users/me/profile', { method: 'PUT', body: formData });
+}
+
+export function getUserById(userId: string): Promise<UserResponse> {
+  return request(`/users/${encodeURIComponent(userId)}`);
+}

@@ -1,0 +1,140 @@
+{
+  "app": {
+    "title": "Bảng điều phối duyệt video",
+    "subtitle": "Tiếng Việt / English / 中文 · Một vai trò quản trị viên",
+    "brand": "FlashReel"
+  },
+  "nav": {
+    "review": "Duyệt video",
+    "detail": "Chi tiết duyệt",
+    "policies": "Trung tâm chính sách"
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "中文"
+  },
+  "search": {
+    "placeholder": "Tìm tiêu đề hoặc email"
+  },
+  "button": {
+    "login": "Đăng nhập",
+    "review": "Duyệt",
+    "view": "Xem",
+    "preview": "Xem trước",
+    "backToList": "Quay lại danh sách duyệt",
+    "approve": "Phê duyệt và công khai",
+    "reject": "Từ chối và gửi lý do",
+    "saveNote": "Lưu ghi chú",
+    "publishNewVersion": "Phát hành phiên bản mới",
+    "logout": "Đăng xuất",
+    "loggingIn": "Dang dang nhap...",
+    "approving": "Dang phe duyet...",
+    "rejecting": "Dang tu choi...",
+    "loggingOut": "Dang dang xuat...",
+    "previous": "Truoc",
+    "next": "Tiep",
+    "takeDown": "Go video",
+    "takingDown": "Dang go video..."
+  },
+  "auth": {
+    "loginTitle": "Đăng nhập quản trị",
+    "loginSubtitle": "Đăng nhập để duyệt video người dùng FlashReel.",
+    "usernameEmail": "Tên người dùng / Email",
+    "usernameEmailPlaceholder": "admin@flashreel.vn",
+    "usernameRequired": "Vui lòng nhập tên người dùng hoặc email.",
+    "emailInvalid": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "loginHint": "Dung tai khoan quan tri da cau hinh tren API server.",
+    "protectedRedirect": "Vui lòng đăng nhập để tiếp tục.",
+    "signedInAs": "Đã đăng nhập: {{name}}",
+    "password": "Mat khau",
+    "passwordPlaceholder": "Nhap mat khau",
+    "passwordRequired": "Vui long nhap mat khau.",
+    "loginFailed": "Dang nhap that bai. Vui long kiem tra tai khoan va mat khau."
+  },
+  "metric": {
+    "pending": "Chờ duyệt",
+    "approvedToday": "Đã duyệt hôm nay",
+    "rejectedToday": "Từ chối hôm nay",
+    "averageHandlingTime": "Thời gian xử lý TB",
+    "averageHandlingValue": "12 phút"
+  },
+  "status": {
+    "UNDER_REVIEW": "Đang duyệt",
+    "APPROVED": "Đã phê duyệt",
+    "REJECTED": "Đã từ chối",
+    "DELETED": "Đã gỡ xuống",
+    "REVIEWING": "Dang duyet",
+    "TAKEN_DOWN": "Da go xuong"
+  },
+  "reason": {
+    "ILLEGAL_CONTENT": "Nội dung vi phạm pháp luật hoặc chính sách",
+    "SEXUAL_OR_VIOLENT": "Nội dung tình dục hoặc bạo lực",
+    "COPYRIGHT_RISK": "Rủi ro bản quyền",
+    "SPAM_OR_ADS": "Quảng cáo hoặc spam",
+    "LOW_QUALITY": "Chất lượng kém hoặc nội dung không phù hợp",
+    "OTHER": "Khác",
+    "COPYRIGHT": "Rui ro ban quyen",
+    "INAPPROPRIATE_CONTENT": "Noi dung khong phu hop",
+    "SPAM": "Quang cao hoac spam"
+  },
+  "table": {
+    "reviewList": "Danh sách duyệt",
+    "video": "Video",
+    "author": "Tác giả",
+    "uploadedAt": "Thời gian tải lên",
+    "status": "Trạng thái",
+    "metrics": "Số liệu",
+    "actions": "Thao tác",
+    "empty": "Không có video phù hợp với bộ lọc hiện tại",
+    "views": "Lượt xem",
+    "likes": "Lượt thích",
+    "comments": "Bình luận",
+    "loading": "Dang tai video...",
+    "pageInfo": "Trang {{page}} / {{totalPages}} · {{totalElements}} video"
+  },
+  "detail": {
+    "videoInfo": "Thông tin video",
+    "title": "Tiêu đề",
+    "author": "Tác giả",
+    "file": "Tệp",
+    "uploadedAt": "Thời gian tải lên",
+    "publicStatus": "Trạng thái hiển thị công khai",
+    "published": "Đã xuất hiện trong luồng video công khai",
+    "pendingRanking": "Sẽ tham gia xếp hạng độ phổ biến sau khi được duyệt",
+    "firstFrameCover": "Ảnh bìa mặc định từ khung hình đầu tiên",
+    "rejectReason": "Lý do từ chối",
+    "rejectNote": "Lý do sẽ được gửi về mục Video của tôi trong ứng dụng. Người dùng có thể xem video gốc và gửi video mới.",
+    "reviewActions": "Thao tác duyệt",
+    "defaultCustomReason": "Video có mã QR quảng cáo chưa được giải thích rõ. Vui lòng xóa hướng dẫn thương mại và gửi lại.",
+    "platformActions": "Thao tac nen tang"
+  },
+  "policy": {
+    "privacyTitle": "Chính sách quyền riêng tư · v1.2",
+    "termsTitle": "Điều khoản dịch vụ · v1.2",
+    "published": "Đã phát hành",
+    "chinese": "Tiếng Trung",
+    "vietnamese": "Tiếng Việt",
+    "english": "Tiếng Anh",
+    "type": "Loại chính sách",
+    "version": "Phiên bản",
+    "title": "Tiêu đề chính sách",
+    "content": "Nội dung chính sách",
+    "privacyOption": "Chính sách quyền riêng tư",
+    "termsOption": "Điều khoản dịch vụ",
+    "editorTitle": "Chính sách quyền riêng tư FlashReel",
+    "editorContent": "FlashReel xử lý thông tin cần thiết cho đăng ký tài khoản, tải video lên, duyệt video, hiển thị video công khai, lượt thích, theo dõi, ghi nhận lượt xem và cài đặt ngôn ngữ theo chính sách quyền riêng tư này. Người dùng có thể yêu cầu xóa tài khoản trong phần cài đặt. Sau khi xóa, tài khoản sẽ được ẩn danh và toàn bộ video do tài khoản đăng sẽ bị gỡ xuống.",
+    "current": "Đang có hiệu lực"
+  },
+  "videos": {
+    "hanoiCoffee": "Một phút sống chậm cuối tuần tại quán cà phê Hà Nội",
+    "hoiAnLantern": "Chợ đêm đèn lồng phố cổ Hội An",
+    "streetBrand": "Tóm tắt sự kiện pop-up thương hiệu đường phố"
+  },
+  "messages": {
+    "rejectionExample": "Quảng cáo hoặc spam. Video chứa mã QR quảng cáo chưa được giải thích rõ.",
+    "loadVideosFailed": "Khong tai duoc video tu API.",
+    "reviewActionFailed": "Khong gui duoc thao tac duyet."
+  }
+}

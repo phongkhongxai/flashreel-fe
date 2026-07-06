@@ -1,0 +1,140 @@
+{
+  "app": {
+    "title": "视频审核工作台",
+    "subtitle": "Tiếng Việt / English / 中文 · 单一管理员角色",
+    "brand": "FlashReel"
+  },
+  "nav": {
+    "review": "视频审核",
+    "detail": "审核详情",
+    "policies": "协议中心"
+  },
+  "language": {
+    "label": "语言",
+    "english": "English",
+    "vietnamese": "Tiếng Việt",
+    "chinese": "中文"
+  },
+  "search": {
+    "placeholder": "搜索标题或邮箱"
+  },
+  "button": {
+    "login": "登录",
+    "review": "审核",
+    "view": "查看",
+    "preview": "预览",
+    "backToList": "返回审核列表",
+    "approve": "通过并公开展示",
+    "reject": "不通过并发送原因",
+    "saveNote": "保存备注",
+    "publishNewVersion": "发布新版本",
+    "logout": "退出登录",
+    "loggingIn": "Signing in...",
+    "approving": "Approving...",
+    "rejecting": "Rejecting...",
+    "loggingOut": "Signing out...",
+    "previous": "Previous",
+    "next": "Next",
+    "takeDown": "Take down",
+    "takingDown": "Taking down..."
+  },
+  "auth": {
+    "loginTitle": "管理员登录",
+    "loginSubtitle": "登录后审核 FlashReel 用户视频。",
+    "usernameEmail": "用户名 / 邮箱",
+    "usernameEmailPlaceholder": "admin@flashreel.vn",
+    "usernameRequired": "请输入用户名或邮箱。",
+    "emailInvalid": "请输入有效的邮箱地址。",
+    "loginHint": "Use the administrator account configured on the API server.",
+    "protectedRedirect": "请先登录后继续。",
+    "signedInAs": "当前账号：{{name}}",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "passwordRequired": "Password is required.",
+    "loginFailed": "Login failed. Please check your account and password."
+  },
+  "metric": {
+    "pending": "待审核",
+    "approvedToday": "今日通过",
+    "rejectedToday": "今日未通过",
+    "averageHandlingTime": "平均处理时长",
+    "averageHandlingValue": "12m"
+  },
+  "status": {
+    "UNDER_REVIEW": "审核中",
+    "APPROVED": "已通过",
+    "REJECTED": "未通过",
+    "DELETED": "已下架",
+    "REVIEWING": "Under Review",
+    "TAKEN_DOWN": "Taken Down"
+  },
+  "reason": {
+    "ILLEGAL_CONTENT": "违法/违规内容",
+    "SEXUAL_OR_VIOLENT": "色情或暴力内容",
+    "COPYRIGHT_RISK": "版权风险",
+    "SPAM_OR_ADS": "广告/垃圾内容",
+    "LOW_QUALITY": "画质或内容不符合要求",
+    "OTHER": "其他",
+    "COPYRIGHT": "Copyright risk",
+    "INAPPROPRIATE_CONTENT": "Inappropriate content",
+    "SPAM": "Advertising or spam"
+  },
+  "table": {
+    "reviewList": "审核列表",
+    "video": "视频",
+    "author": "作者",
+    "uploadedAt": "上传时间",
+    "status": "状态",
+    "metrics": "数据",
+    "actions": "操作",
+    "empty": "当前筛选条件下没有视频",
+    "views": "播放",
+    "likes": "点赞",
+    "comments": "评论",
+    "loading": "正在加载视频...",
+    "pageInfo": "Page {{page}} of {{totalPages}} · {{totalElements}} videos"
+  },
+  "detail": {
+    "videoInfo": "视频信息",
+    "title": "标题",
+    "author": "作者",
+    "file": "文件",
+    "uploadedAt": "上传时间",
+    "publicStatus": "公开视频状态",
+    "published": "已进入公开视频流",
+    "pendingRanking": "审核通过后参与热度排序",
+    "firstFrameCover": "默认首帧封面",
+    "rejectReason": "不通过原因",
+    "rejectNote": "原因将回传到 App「我的视频」，用户可查看原视频并重新提交新视频。",
+    "reviewActions": "审核操作",
+    "defaultCustomReason": "画面中出现未说明的促销二维码，请移除商业引导后重新提交。",
+    "platformActions": "Platform Actions"
+  },
+  "policy": {
+    "privacyTitle": "隐私政策 · v1.2",
+    "termsTitle": "用户协议 · v1.2",
+    "published": "已发布",
+    "chinese": "中文",
+    "vietnamese": "Tiếng Việt",
+    "english": "English",
+    "type": "协议类型",
+    "version": "版本号",
+    "title": "协议标题",
+    "content": "协议正文",
+    "privacyOption": "隐私政策",
+    "termsOption": "用户协议",
+    "editorTitle": "FlashReel 隐私政策",
+    "editorContent": "FlashReel 会根据本隐私政策处理账号注册、视频上传、视频审核、公开视频展示、点赞关注、播放量记录和语言设置所需的信息。用户可以在设置中发起账号注销，注销后账号将匿名化，并下架该账号发布的全部视频。",
+    "current": "当前生效"
+  },
+  "videos": {
+    "hanoiCoffee": "河内周末咖啡店的一分钟慢生活",
+    "hoiAnLantern": "会安古城灯笼夜市",
+    "streetBrand": "街头品牌快闪记录"
+  },
+  "messages": {
+    "rejectionExample": "广告/垃圾内容。画面中包含未经说明的促销二维码。",
+    "loadVideosFailed": "Could not load videos from the API.",
+    "reviewActionFailed": "Could not submit the review action."
+  }
+}
