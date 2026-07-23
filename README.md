@@ -2,6 +2,14 @@
 
 React + Vite admin website for the FlashReel MVP video review workflow.
 
+## Repositories
+
+| Component | Repository |
+|-----------|------------|
+| 🖥 Backend | https://github.com/phongkhongxai/flashreel-be |
+| 🌐 Frontend | https://github.com/phongkhongxai/flashreel-fe |
+| 📱 Android app | https://github.com/phongkhongxai/flashreel-android |
+
 ## Internationalization
 
 The admin UI uses `react-i18next` with translations in `src/locales/`.
