@@ -7,6 +7,7 @@ React + Vite admin website for the FlashReel MVP video review workflow.
 | Component | Repository |
 |-----------|------------|
 | 🖥 Backend | https://github.com/phongkhongxai/flashreel-be |
+| 🖥 Backend Nestjs | https://github.com/phongkhongxai/flashreel-be-ts |
 | 🌐 Frontend | https://github.com/phongkhongxai/flashreel-fe |
 | 📱 Android app | https://github.com/phongkhongxai/flashreel-android |
 
