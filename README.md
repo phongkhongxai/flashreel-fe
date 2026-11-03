@@ -1,6 +1,5 @@
-# FlashReel Admin Website
+# FlashReel  Website
 
-React + Vite admin website for the FlashReel MVP video review workflow.
 
 ## Repositories
 
