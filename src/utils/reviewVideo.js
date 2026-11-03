@@ -1,6 +1,5 @@
-import { API_BASE_URL } from '../config/env';
+import { getApiBaseUrl } from '../config/env';
 import { statusToApi } from '../constants/reviewConfig';
-
 export function mapReviewVideo(video, index) {
   return {
     id: video.id,
@@ -20,7 +19,6 @@ export function mapReviewVideo(video, index) {
     coverUrl: video.coverUrl
   };
 }
-
 export function createEmptyVideo(t) {
   return {
     id: '',
@@ -37,17 +35,15 @@ export function createEmptyVideo(t) {
     palette: 'night'
   };
 }
-
 export function getVideoTitle(video, t) {
   if (video.title) return video.title;
   if (video.titleKey) return t(video.titleKey);
   return video.id || '';
 }
-
 export function resolveMediaUrl(url) {
   if (!url) return '';
   if (/^(https?:)?\/\//i.test(url) || url.startsWith('blob:') || url.startsWith('data:')) {
     return url;
   }
-  return new URL(url.replace(/^\/+/, ''), `${API_BASE_URL.replace(/\/+$/, '')}/`).toString();
+  return new URL(url.replace(/^\/+/, ''), `${getApiBaseUrl().replace(/\/+$/, '')}/`).toString();
 }

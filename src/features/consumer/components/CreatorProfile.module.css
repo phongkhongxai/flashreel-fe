@@ -1,0 +1,271 @@
+.page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 38px 48px 100px;
+  color: #171b24;
+}
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #818894 !important;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 38px;
+}
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding-bottom: 34px;
+}
+.avatar {
+  width: 124px;
+  height: 124px;
+  flex: none;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #f6c7bc, #f28da0);
+  color: #783d4c;
+  display: grid;
+  place-items: center;
+  font-size: 46px;
+  font-weight: 800;
+  overflow: hidden;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.identity {
+  min-width: 0;
+  flex: 1;
+}
+.handle {
+  font-size: 22px;
+  font-weight: 850;
+  letter-spacing: -0.5px;
+  margin: 0 0 4px;
+}
+.identity h1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  margin: 0 0 19px;
+}
+.stats {
+  display: flex;
+  gap: 26px;
+}
+.stats div {
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+}
+.stats strong {
+  font-size: 17px;
+}
+.stats span {
+  font-size: 12px;
+  color: #858d98;
+}
+.bio {
+  font-size: 13px;
+  color: #505864;
+  line-height: 1.6;
+  margin: 19px 0;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.follow,
+.secondary,
+.loadMore {
+  min-height: 40px;
+  border-radius: 8px;
+  padding: 0 23px;
+  font-size: 13px;
+  font-weight: 750;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.follow {
+  border: 0;
+  background: #ff4d67;
+  color: white;
+  min-width: 170px;
+}
+.secondary,
+.loadMore {
+  border: 1px solid #e3e7ed;
+  background: white;
+  color: #303743 !important;
+}
+.follow:disabled,
+.secondary:disabled,
+.loadMore:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.videos {
+  border-top: 1px solid #e8ebef;
+}
+.tabs {
+  height: 55px;
+  display: flex;
+  align-items: stretch;
+}
+.tabs span {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 34px;
+  border-bottom: 2px solid #191d26;
+  font-weight: 750;
+  font-size: 13px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px 14px;
+  padding-top: 20px;
+}
+.videoCard {
+  min-width: 0;
+  color: #20242c !important;
+  text-decoration: none;
+}
+.cover {
+  position: relative;
+  aspect-ratio: 3/4;
+  border-radius: 9px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #313c49, #b47679);
+}
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.cover:after {
+  content: "";
+  position: absolute;
+  inset: 50% 0 0;
+  background: linear-gradient(transparent, #0009);
+  pointer-events: none;
+}
+.views {
+  position: absolute;
+  z-index: 1;
+  bottom: 11px;
+  left: 11px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 750;
+}
+.videoTitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.45;
+  margin-top: 8px;
+}
+.empty {
+  padding: 58px 10px;
+  color: #9ca3ad;
+  font-size: 13px;
+  text-align: center;
+}
+.error {
+  color: #c64057;
+  font-size: 13px;
+}
+.error button {
+  border: 0;
+  background: none;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.loadMore {
+  display: flex;
+  margin: 24px auto 0;
+}
+.videoCard:focus-visible,
+.back:focus-visible,
+.follow:focus-visible,
+.secondary:focus-visible,
+.loadMore:focus-visible {
+  outline: 3px solid #ff4d67;
+  outline-offset: 3px;
+}
+@media (max-width: 767px) {
+  .page {
+    padding: 25px 18px 95px;
+  }
+  .back {
+    margin-bottom: 25px;
+  }
+  .header {
+    gap: 16px;
+    padding-bottom: 26px;
+  }
+  .avatar {
+    width: 76px;
+    height: 76px;
+    font-size: 28px;
+  }
+  .handle {
+    font-size: 18px;
+    overflow-wrap: anywhere;
+  }
+  .identity h1 {
+    margin-bottom: 15px;
+  }
+  .stats {
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .stats div {
+    display: grid;
+    gap: 3px;
+  }
+  .stats strong {
+    font-size: 15px;
+  }
+  .stats span {
+    font-size: 10px;
+  }
+  .bio {
+    font-size: 12px;
+  }
+  .follow,
+  .secondary {
+    min-width: 145px;
+  }
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px 6px;
+  }
+  .cover {
+    border-radius: 5px;
+  }
+  .videoTitle {
+    font-size: 11px;
+  }
+  .tabs span {
+    padding: 0 22px;
+  }
+}

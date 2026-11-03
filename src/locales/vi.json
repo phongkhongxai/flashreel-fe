@@ -29,14 +29,14 @@
     "saveNote": "Lưu ghi chú",
     "publishNewVersion": "Phát hành phiên bản mới",
     "logout": "Đăng xuất",
-    "loggingIn": "Dang dang nhap...",
-    "approving": "Dang phe duyet...",
-    "rejecting": "Dang tu choi...",
-    "loggingOut": "Dang dang xuat...",
-    "previous": "Truoc",
-    "next": "Tiep",
-    "takeDown": "Go video",
-    "takingDown": "Dang go video..."
+    "loggingIn": "Đang đăng nhập...",
+    "approving": "Đang phê duyệt...",
+    "rejecting": "Đang từ chối...",
+    "loggingOut": "Đang đăng xuất...",
+    "previous": "Trước",
+    "next": "Tiếp",
+    "takeDown": "Gỡ video",
+    "takingDown": "Đang gỡ video..."
   },
   "auth": {
     "loginTitle": "Đăng nhập quản trị",
@@ -65,8 +65,8 @@
     "APPROVED": "Đã phê duyệt",
     "REJECTED": "Đã từ chối",
     "DELETED": "Đã gỡ xuống",
-    "REVIEWING": "Dang duyet",
-    "TAKEN_DOWN": "Da go xuong"
+    "REVIEWING": "Đang duyệt",
+    "TAKEN_DOWN": "Đã gỡ xuống"
   },
   "reason": {
     "ILLEGAL_CONTENT": "Nội dung vi phạm pháp luật hoặc chính sách",
@@ -75,9 +75,9 @@
     "SPAM_OR_ADS": "Quảng cáo hoặc spam",
     "LOW_QUALITY": "Chất lượng kém hoặc nội dung không phù hợp",
     "OTHER": "Khác",
-    "COPYRIGHT": "Rui ro ban quyen",
-    "INAPPROPRIATE_CONTENT": "Noi dung khong phu hop",
-    "SPAM": "Quang cao hoac spam"
+    "COPYRIGHT": "Rủi ro bản quyền",
+    "INAPPROPRIATE_CONTENT": "ội dung không phù hợp",
+    "SPAM": "Quảng cáo hoặc spam"
   },
   "table": {
     "reviewList": "Danh sách duyệt",

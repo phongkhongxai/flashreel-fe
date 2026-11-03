@@ -12,10 +12,14 @@
     "@vitejs/plugin-react": "latest",
     "i18next": "^26.3.4",
     "lucide-react": "latest",
+    "prop-types": "^15.8.1",
     "react": "latest",
     "react-dom": "latest",
     "react-i18next": "^17.0.8",
     "react-router-dom": "^7.18.1",
     "vite": "latest"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
   }
 }

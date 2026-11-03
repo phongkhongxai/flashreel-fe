@@ -1,5 +1,5 @@
-import { Play } from 'lucide-react';
-
+import PropTypes from "prop-types";
+import { Play } from "lucide-react";
 export default function Thumbnail({ palette, coverUrl }) {
   return (
     <div className={`thumb ${palette}`}>
@@ -8,3 +8,5 @@ export default function Thumbnail({ palette, coverUrl }) {
     </div>
   );
 }
+
+Thumbnail.propTypes = { palette: PropTypes.string, coverUrl: PropTypes.string };
